@@ -3,8 +3,7 @@ package student.list;
 
 
 public class StudentList {
-//Hello this is comment
-    //Hello this is comment for rollback
+
     
     public static void main(String[] args) {
         
@@ -12,7 +11,7 @@ public class StudentList {
      //  Scanner input = new Scanner(System.in) ;
      Student[] studentList = new Student[3] ;
      studentList[0] = s1;
-     studentList[1] = new Student("s2", "abc");
+     studentList[1] = new("s2", "abc");
      studentList[2] = new Student("s3", "def") ;
      
      for(int i = 0; i < studentList.length; i++) {
